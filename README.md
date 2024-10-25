@@ -84,8 +84,8 @@
 
 ### **Code Deploy 어플리케이션 생성**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/74d0b054-c06a-4b0b-9040-5ca1b873146c/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/dY1Nnsj.png)
+
 
 ---
 
@@ -95,8 +95,8 @@
 IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 케이스에서 CodeDeploy를 선택합니다.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/d7a91100-caab-4e82-af0d-3a81a1aa295b/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/9xalz95.png)
+
 
 ---
 
@@ -133,8 +133,8 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
     ```
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ae4ea676-c52b-442b-9b2b-41a6dd5e8618/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/Uq4KofO.png)
+
 
 ---
 
