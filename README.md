@@ -9,7 +9,6 @@
 # 구성도
 
 
-![이미지 설명](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ad3abe82-ccb8-48b6-9ef0-7121c3426fc6/image.png)
 
 ![CI/CD 이미지](https://devio2023-media.developers.io/wp-content/uploads/2022/11/CI_CD-1-1536x907.png)
 
