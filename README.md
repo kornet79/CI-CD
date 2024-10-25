@@ -220,18 +220,17 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ### **리스너 및 라우팅**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7834bd2b-6f07-4853-bd68-7ccbd8122f69/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/W39J7tM.png)
 
 아까 타겟 그룹을 만들고 지정해줘야 한다.
 
 태그는 선택사항 나는 개인적으로 추천 (분류 편함)
 
-![image.png](https://imgur.com/ClYhmhK)
+![image.png](https://imgur.com/ClYhmhK.png)
 
 요약 검토 하고 생성
 
-![image.png](https://imgur.com/3v163xb)
+![image.png](https://imgur.com/3v163xb.png)
 
 그럼 완성!
 
