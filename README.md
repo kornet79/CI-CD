@@ -154,13 +154,11 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ### 역할과 이름
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/f48495d3-bc95-4d86-835d-fffe416cfdfe/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/zKtqjVp)
 
 ### 배포 유형
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/815bd135-0b10-4fa6-8a9a-7f059decc169/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/zrw6Osu)
 
 **나 같은경우 아직 ec2 설정을 다하지 못한 상태였다.**
 
@@ -168,8 +166,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ### **AWS Systems Manager를 사용한 에이전트 구성**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/d1596546-dea8-4db4-9735-a62a29c9a7b7/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/oNN7kqK)
 
 ### **배포 설정, 로드 밸런스 설정**
 
@@ -181,18 +178,15 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ## 타겟 그룹 설정
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/103c9259-ff9b-4663-9dee-9d00957c8f87/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/zMgMNmu)
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/b49faf3d-44d4-4263-8169-356f6b8aef5e/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/xu0sFU8)
 
 **어떤 LB 사용할껀지 부터 정하고 가자 작자 본인은 ALB 인스턴스 Auto Scaling을 사용하여 EC2의 크기와 숫자를 조절한다는 가정하에 진행하겠다.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/0d033f5c-7b8e-4dbf-9f36-772eaca94eb5/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/r77JZ19)
 
 **타겟 그룹의 이름을 정의해주고 네트워크 설정을 해줬다.**
 
@@ -200,34 +194,29 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/00bdb580-6af3-4b34-89c1-fecb0d678348/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/2wl5F7j)
 
 **이제 할당할 인스턴스를 골라주고 그 인스턴스에서 열어줄 port를 입력해준다. 작자는 http 80을 열어주었다.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ba08c37d-d669-4b82-b0ec-3702145d8339/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/152JQKT)
 
 **고롬 요로코롬 타겟 그룹이 생성이 완료 되었다.**
 
 ## LB 설정
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/de7f93d6-14f1-4493-a738-b62d657f0f76/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/MM43rzj)
 
 ### 이름과 IP 주소 유형 정해줍니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/82f1c6b0-09b2-4cb4-a1f3-b3d9d05caf6a/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/PBBNuXw)
 
 ---
 
 ### 다음 네트워크, 보안 그룹 부분을 설정
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/57f1ec4a-4420-4adc-b688-76b11079e161/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/KeXibIP)
 
 ### **리스너 및 라우팅**
 
@@ -238,13 +227,11 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 태그는 선택사항 나는 개인적으로 추천 (분류 편함)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7555a6fc-4a27-4f4e-b82a-bfa1b89c212e/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/ClYhmhK)
 
 요약 검토 하고 생성
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/9b4bdcfe-d6a0-4347-b9fb-14caf3975ac8/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/3v163xb)
 
 그럼 완성!
 
@@ -259,8 +246,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ### 어플리케이션 완성.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/f469d97b-49eb-45dd-83fa-17884c8c4707/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/F3qSfLG)
 
 # Code Pipeline 생성
 
