@@ -9,7 +9,8 @@ https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005
 # 구성도
 
 
-![imgea.png](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fa156cc82-d201-4160-ac40-16f8ab23f7dc%2Fad3abe82-ccb8-48b6-9ef0-7121c3426fc6%2Fimage.png?table=block&id=12726f53-91b1-805b-9ffb-ebcb5d43fe27&spaceId=a156cc82-d201-4160-ac40-16f8ab23f7dc&width=1710&userId=16600378-abff-4f6c-be70-0a368bcb838a&cache=v2)
+![이미지 설명](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ad3abe82-ccb8-48b6-9ef0-7121c3426fc6/image.png)
+
 
 
 
