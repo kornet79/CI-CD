@@ -1,6 +1,6 @@
 ---노션---
 https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005a229f39bf16bf25d
-
+<br>
 
 
 # **AWS Code Pipeline CI/CD**
@@ -9,6 +9,8 @@ https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005
 
 
 ![imgea.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ad3abe82-ccb8-48b6-9ef0-7121c3426fc6/image.png)
+
+
 
 
 **Github 에 소스 코드가 푸시되면 자동으로 배포되도록 구성되어 있으며 다음과 같은 워크플로우로 진행됩니다.**
