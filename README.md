@@ -178,15 +178,15 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ## 타겟 그룹 설정
 
-![image.png](https://imgur.com/zMgMNmu)
+![image.png](https://imgur.com/zMgMNmu.png)
 
 ---
 
-![image.png](https://imgur.com/xu0sFU8)
+![image.png](https://imgur.com/xu0sFU8.png)
 
 **어떤 LB 사용할껀지 부터 정하고 가자 작자 본인은 ALB 인스턴스 Auto Scaling을 사용하여 EC2의 크기와 숫자를 조절한다는 가정하에 진행하겠다.**
 
-![image.png](https://imgur.com/r77JZ19)
+![image.png](https://imgur.com/r77JZ19.png)
 
 **타겟 그룹의 이름을 정의해주고 네트워크 설정을 해줬다.**
 
@@ -194,29 +194,29 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ---
 
-![image.png](https://imgur.com/2wl5F7j)
+![image.png](https://imgur.com/2wl5F7j.png)
 
 **이제 할당할 인스턴스를 골라주고 그 인스턴스에서 열어줄 port를 입력해준다. 작자는 http 80을 열어주었다.**
 
-![image.png](https://imgur.com/152JQKT)
+![image.png](https://imgur.com/152JQKT.png)
 
 **고롬 요로코롬 타겟 그룹이 생성이 완료 되었다.**
 
 ## LB 설정
 
-![image.png](https://imgur.com/MM43rzj)
+![image.png](https://imgur.com/MM43rzj.png)
 
 ### 이름과 IP 주소 유형 정해줍니다.
 
 ---
 
-![image.png](https://imgur.com/PBBNuXw)
+![image.png](https://imgur.com/PBBNuXw.png)
 
 ---
 
 ### 다음 네트워크, 보안 그룹 부분을 설정
 
-![image.png](https://imgur.com/KeXibIP)
+![image.png](https://imgur.com/KeXibIP.png)
 
 ### **리스너 및 라우팅**
 
