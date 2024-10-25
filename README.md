@@ -226,11 +226,12 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 태그는 선택사항 나는 개인적으로 추천 (분류 편함)
 
-![image.png](https://imgur.com/ClYhmhK.png)
+![대체 텍스트](https://i.imgur.com/FH89llY.png)
+
 
 요약 검토 하고 생성
 
-![image.png](https://imgur.com/3v163xb.png)
+![대체 텍스트](https://i.imgur.com/ukJSZZJ.png)
 
 그럼 완성!
 
