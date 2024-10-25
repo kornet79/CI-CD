@@ -267,7 +267,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![대체 텍스트](https://i.imgur.com/4YQqQtk.png)
+![대체 텍스트](https://imgur.com/viagiD7.png)
 
 
 ---
