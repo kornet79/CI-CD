@@ -240,9 +240,6 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ---
 
-### 어플리케이션 완성.
-
-![image.png](https://imgur.com/F3qSfLG)
 
 # Code Pipeline 생성
 
@@ -257,7 +254,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![대체 텍스트](https://i.imgur.com/MDoHvw3.png)
+![대체 텍스트](https://imgur.com/cDHdGCG.png)
 
 
 ---
@@ -266,7 +263,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![대체 텍스트](https://imgur.com/viagiD7.png)
+![대체 텍스트](https://imgur.com/OMhtuqv.png)
 
 
 ---
@@ -275,13 +272,13 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![image.png](https://imgur.com/ZRGrusL.png)
+![image.png](https://imgur.com/igsPxuj.png)
 
 ### **빌드 스테이지 추가**
 
 ---
 
-![image.png](https://imgur.com/V2HivRI.png)
+![image.png](https://imgur.com/zNrKlAV.png)
 
 **나는 그냥 hello world 출력문 달아줬다.**
 
@@ -289,7 +286,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![image.png](https://imgur.com/X5jOgRH.png)
+![image.png](https://imgur.com/my54RV7.png)
 
 **아까 우리가 만든  APP, 타겟 그룹이 잘살아있는것을 확인할수 있다.**
 
@@ -303,11 +300,11 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ## 파이프 라인 완성
 
-![image.png](https://imgur.com/X5jOgRH.png)
+![image.png](\https://imgur.com/X8dY4qy.png)
 
 ## **깃 허브에 코드 업로드해보기**
 
-![image.png](https://imgur.com/u7Q5JYa.png)
+![image.png](https://imgur.com/fZwYRGj.png)
 
 **전체적인 파이프라인에 문제가 없다면 마지막으로 깃 허브에 코드를 수정하여 푸시해봅시다.**
 
