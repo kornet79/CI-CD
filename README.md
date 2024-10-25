@@ -1,7 +1,6 @@
 ---[**노션**](https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005a229f39bf16bf25d)---
 <br>
 
-![aws 이미지](https://imgur.com/k7V7iV6.png)
 
 
 # **AWS Code Pipeline CI/CD**
