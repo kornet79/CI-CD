@@ -235,8 +235,6 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ---
 
-![대체 텍스트](https://i.imgur.com/mYnFMUp.png)
-
 
 **나는 활성화 해주고 아까 만든 LB설정 해주고 만들어 줬다.**
 
@@ -248,7 +246,8 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 # Code Pipeline 생성
 
-![대체 텍스트](https://i.imgur.com/Vqj3W3Y.png)
+![대체 텍스트](https://i.imgur.com/mYnFMUp.png)
+
 
 ---
 
