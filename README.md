@@ -154,11 +154,11 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ### 역할과 이름
 
-![image.png](https://imgur.com/zKtqjVp)
+![대체 텍스트](https://i.imgur.com/zKtqjVp.png)
 
 ### 배포 유형
 
-![image.png](https://imgur.com/zrw6Osu)
+![대체 텍스트](https://i.imgur.com/zrw6Osu.png)
 
 **나 같은경우 아직 ec2 설정을 다하지 못한 상태였다.**
 
@@ -166,7 +166,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ### **AWS Systems Manager를 사용한 에이전트 구성**
 
-![image.png](https://imgur.com/oNN7kqK)
+![image.png](https://imgur.com/oNN7kqK.png)
 
 ### **배포 설정, 로드 밸런스 설정**
 
