@@ -52,8 +52,8 @@
 
 ### **Code Build 프로젝트 생성**
 
-![대체 텍스트](![대체 텍스트](https://i.imgur.com/N1AGN2o.png)
-)
+![대체 텍스트](https://i.imgur.com/N1AGN2o.png)
+
 
 
 ![두 번째 이미지](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7e1c6f82-f0c3-419a-b188-6f36a70dca2f/image.png)
