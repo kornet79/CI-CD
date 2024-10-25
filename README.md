@@ -237,8 +237,8 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/b13a5280-3336-48fa-89b4-2be15491d834/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/mYnFMUp.png)
+
 
 **나는 활성화 해주고 아까 만든 LB설정 해주고 만들어 줬다.**
 
@@ -250,8 +250,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 # Code Pipeline 생성
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/56d964b8-f4ce-427f-99be-e5f988a38730/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/Vqj3W3Y.png)
 
 ---
 
@@ -261,8 +260,8 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/07bc6d17-d333-4c40-8418-dee0fe09dbb6/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/MDoHvw3.png)
+
 
 ---
 
@@ -270,8 +269,8 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/586b594a-ab82-46d0-b342-c78effdce53f/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/4YQqQtk.png)
+
 
 ---
 
@@ -279,15 +278,13 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/fa3cccef-7362-42cf-b02a-ee0b7d8e8f3e/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/ZRGrusL.png)
 
 ### **빌드 스테이지 추가**
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/abcb7bcd-e84f-430b-a8bb-2512cb1426d5/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/V2HivRI.png)
 
 **나는 그냥 hello world 출력문 달아줬다.**
 
@@ -295,8 +292,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ---
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/93fdfcf3-f357-4756-909d-bcda80b7251e/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/X5jOgRH.png)
 
 **아까 우리가 만든  APP, 타겟 그룹이 잘살아있는것을 확인할수 있다.**
 
@@ -310,13 +306,11 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ## 파이프 라인 완성
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/a28d0ad2-c979-4bf0-953d-8498421f0ee5/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/X5jOgRH.png)
 
 ## **깃 허브에 코드 업로드해보기**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/266259f0-ecac-4269-87c3-2f832b047d06/image.png)
-<img src="" alt="어라" />
+![image.png](https://imgur.com/u7Q5JYa.png)
 
 **전체적인 파이프라인에 문제가 없다면 마지막으로 깃 허브에 코드를 수정하여 푸시해봅시다.**
 
