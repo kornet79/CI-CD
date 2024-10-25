@@ -52,11 +52,10 @@
 
 ### **Code Build 프로젝트 생성**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/bfd0e698-f384-45f5-bb3d-eff12027fbe9/image.png)
-<img src="" alt="어라" />
+![첫 번째 이미지](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/bfd0e698-f384-45f5-bb3d-eff12027fbe9/image.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7e1c6f82-f0c3-419a-b188-6f36a70dca2f/image.png)
-<img src="" alt="어라" />
+![두 번째 이미지](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7e1c6f82-f0c3-419a-b188-6f36a70dca2f/image.png)
+
 
 **깃 허브를 소스 프로바이더로 지정하였지만 필요하다면 S3나 Code Commit 등 필요한 서비스를 지정해줍니다. 이후에 파이프라인에 소스 스테이지를 추가하기 때문에 웹 훅은 체크를 해제합니다.**
 
