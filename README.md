@@ -68,13 +68,13 @@
 
 **저는 다음과 같이 설정하였습니다.**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/bb1bb110-c32d-47aa-b579-3b0b5fcc197b/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/4BPvQyW.png)
+
 
 ### 아티팩트
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/19a8178e-1a27-4736-bd49-12814f0690ed/image.png)
-<img src="" alt="어라" />
+![대체 텍스트](https://i.imgur.com/So2jKel.png)
+
 
 **난 따로 S3를 만들고 지정하지 않았기 때문에 없다는걸 확인할수 있다.**
 
