@@ -300,7 +300,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 
 ## 파이프 라인 완성
 
-![image.png](\https://imgur.com/X8dY4qy.png)
+![image.png](https://imgur.com/X8dY4qy.png)
 
 ## **깃 허브에 코드 업로드해보기**
 
