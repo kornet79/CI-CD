@@ -7,7 +7,9 @@ https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005
 
 # 구성도
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ad3abe82-ccb8-48b6-9ef0-7121c3426fc6/image.png)
+
+<img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ad3abe82-ccb8-48b6-9ef0-7121c3426fc6/image.png" alt="어라" />
+
 
 **Github 에 소스 코드가 푸시되면 자동으로 배포되도록 구성되어 있으며 다음과 같은 워크플로우로 진행됩니다.**
 
@@ -45,8 +47,10 @@ https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005
 ### **Code Build 프로젝트 생성**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/bfd0e698-f384-45f5-bb3d-eff12027fbe9/image.png)
+<img src="" alt="어라" />
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7e1c6f82-f0c3-419a-b188-6f36a70dca2f/image.png)
+<img src="" alt="어라" />
 
 **깃 허브를 소스 프로바이더로 지정하였지만 필요하다면 S3나 Code Commit 등 필요한 서비스를 지정해줍니다. 이후에 파이프라인에 소스 스테이지를 추가하기 때문에 웹 훅은 체크를 해제합니다.**
 
@@ -57,10 +61,12 @@ https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005
 **저는 다음과 같이 설정하였습니다.**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/bb1bb110-c32d-47aa-b579-3b0b5fcc197b/image.png)
+<img src="" alt="어라" />
 
 ### 아티팩트
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/19a8178e-1a27-4736-bd49-12814f0690ed/image.png)
+<img src="" alt="어라" />
 
 **난 따로 S3를 만들고 지정하지 않았기 때문에 없다는걸 확인할수 있다.**
 
@@ -71,6 +77,7 @@ https://incredible-guan-388.notion.site/AWS-Code-Pipeline-CI-CD-12726f5391b18005
 ### **Code Deploy 어플리케이션 생성**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/74d0b054-c06a-4b0b-9040-5ca1b873146c/image.png)
+<img src="" alt="어라" />
 
 ---
 
@@ -81,6 +88,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 케이스에서 CodeDeploy를 선택합니다.**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/d7a91100-caab-4e82-af0d-3a81a1aa295b/image.png)
+<img src="" alt="어라" />
 
 ---
 
@@ -118,12 +126,14 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
     
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ae4ea676-c52b-442b-9b2b-41a6dd5e8618/image.png)
+<img src="" alt="어라" />
 
 ---
 
 **간단하게 APP 만들어주고 배포 그룹 만들어줄개요.**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/20a83a69-3a61-4edc-b961-dddc7db3922d/image.png)
+<img src="" alt="어라" />
 
 **이후 배포 그룹을 생성합니다.**
 
@@ -138,10 +148,12 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 ### 역할과 이름
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/f48495d3-bc95-4d86-835d-fffe416cfdfe/image.png)
+<img src="" alt="어라" />
 
 ### 배포 유형
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/815bd135-0b10-4fa6-8a9a-7f059decc169/image.png)
+<img src="" alt="어라" />
 
 **나 같은경우 아직 ec2 설정을 다하지 못한 상태였다.**
 
@@ -150,6 +162,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 ### **AWS Systems Manager를 사용한 에이전트 구성**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/d1596546-dea8-4db4-9735-a62a29c9a7b7/image.png)
+<img src="" alt="어라" />
 
 ### **배포 설정, 로드 밸런스 설정**
 
@@ -162,14 +175,17 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 ## 타겟 그룹 설정
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/103c9259-ff9b-4663-9dee-9d00957c8f87/image.png)
+<img src="" alt="어라" />
 
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/b49faf3d-44d4-4263-8169-356f6b8aef5e/image.png)
+<img src="" alt="어라" />
 
 **어떤 LB 사용할껀지 부터 정하고 가자 작자 본인은 ALB 인스턴스 Auto Scaling을 사용하여 EC2의 크기와 숫자를 조절한다는 가정하에 진행하겠다.**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/0d033f5c-7b8e-4dbf-9f36-772eaca94eb5/image.png)
+<img src="" alt="어라" />
 
 **타겟 그룹의 이름을 정의해주고 네트워크 설정을 해줬다.**
 
@@ -178,48 +194,57 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/00bdb580-6af3-4b34-89c1-fecb0d678348/image.png)
+<img src="" alt="어라" />
 
 **이제 할당할 인스턴스를 골라주고 그 인스턴스에서 열어줄 port를 입력해준다. 작자는 http 80을 열어주었다.**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/ba08c37d-d669-4b82-b0ec-3702145d8339/image.png)
+<img src="" alt="어라" />
 
 **고롬 요로코롬 타겟 그룹이 생성이 완료 되었다.**
 
 ## LB 설정
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/de7f93d6-14f1-4493-a738-b62d657f0f76/image.png)
+<img src="" alt="어라" />
 
 ### 이름과 IP 주소 유형 정해줍니다.
 
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/82f1c6b0-09b2-4cb4-a1f3-b3d9d05caf6a/image.png)
+<img src="" alt="어라" />
 
 ---
 
 ### 다음 네트워크, 보안 그룹 부분을 설정
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/57f1ec4a-4420-4adc-b688-76b11079e161/image.png)
+<img src="" alt="어라" />
 
 ### **리스너 및 라우팅**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7834bd2b-6f07-4853-bd68-7ccbd8122f69/image.png)
+<img src="" alt="어라" />
 
 아까 타겟 그룹을 만들고 지정해줘야 한다.
 
 태그는 선택사항 나는 개인적으로 추천 (분류 편함)
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/7555a6fc-4a27-4f4e-b82a-bfa1b89c212e/image.png)
+<img src="" alt="어라" />
 
 요약 검토 하고 생성
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/9b4bdcfe-d6a0-4347-b9fb-14caf3975ac8/image.png)
+<img src="" alt="어라" />
 
 그럼 완성!
 
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/b13a5280-3336-48fa-89b4-2be15491d834/image.png)
+<img src="" alt="어라" />
 
 **나는 활성화 해주고 아까 만든 LB설정 해주고 만들어 줬다.**
 
@@ -228,10 +253,12 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 ### 어플리케이션 완성.
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/f469d97b-49eb-45dd-83fa-17884c8c4707/image.png)
+<img src="" alt="어라" />
 
 # Code Pipeline 생성
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/56d964b8-f4ce-427f-99be-e5f988a38730/image.png)
+<img src="" alt="어라" />
 
 ---
 
@@ -242,6 +269,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/07bc6d17-d333-4c40-8418-dee0fe09dbb6/image.png)
+<img src="" alt="어라" />
 
 ---
 
@@ -250,6 +278,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/586b594a-ab82-46d0-b342-c78effdce53f/image.png)
+<img src="" alt="어라" />
 
 ---
 
@@ -258,12 +287,14 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/fa3cccef-7362-42cf-b02a-ee0b7d8e8f3e/image.png)
+<img src="" alt="어라" />
 
 ### **빌드 스테이지 추가**
 
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/abcb7bcd-e84f-430b-a8bb-2512cb1426d5/image.png)
+<img src="" alt="어라" />
 
 **나는 그냥 hello world 출력문 달아줬다.**
 
@@ -272,6 +303,7 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 ---
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/93fdfcf3-f357-4756-909d-bcda80b7251e/image.png)
+<img src="" alt="어라" />
 
 **아까 우리가 만든  APP, 타겟 그룹이 잘살아있는것을 확인할수 있다.**
 
@@ -286,10 +318,12 @@ Code Pipeline 콘솔에서 파이프라인 작성을 클릭합니다.
 ## 파이프 라인 완성
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/a28d0ad2-c979-4bf0-953d-8498421f0ee5/image.png)
+<img src="" alt="어라" />
 
 ## **깃 허브에 코드 업로드해보기**
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a156cc82-d201-4160-ac40-16f8ab23f7dc/266259f0-ecac-4269-87c3-2f832b047d06/image.png)
+<img src="" alt="어라" />
 
 **전체적인 파이프라인에 문제가 없다면 마지막으로 깃 허브에 코드를 수정하여 푸시해봅시다.**
 
