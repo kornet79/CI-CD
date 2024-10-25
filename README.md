@@ -140,7 +140,7 @@ IAM 콘솔에서 역할에 들어간 후 역할을 생성합니다.
 
 **간단하게 APP 만들어주고 배포 그룹 만들어줄개요.**
 
-![image.png](https://imgur.com/zrw6Osu)
+![대체 텍스트](https://i.imgur.com/Uq4KofO.png)
 
 **이후 배포 그룹을 생성합니다.**
 
